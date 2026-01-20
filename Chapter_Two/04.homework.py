@@ -5,7 +5,7 @@
 #
 # average = (x + y + z) / 3
 # print("三个整数的平均数为: %.2f " %average)
-import math
+
 
 #案例2:要求输入梯形的上底,下底,高 , 然后计算梯形的面积
 # x = float(input("请输入梯形的上底:"))
