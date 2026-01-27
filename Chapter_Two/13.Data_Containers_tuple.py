@@ -119,14 +119,14 @@ print()
 # 2.统计各科成绩的最低分, 最高分, 平均分, 并输出.
 # 2. 获取到各科的成绩列表
 chinese_scores = [s[2] for s in students]
-match_scores = [s[3] for s in students]
+math_scores = [s[3] for s in students]
 english_scores = [s[4] for s in students]
 
 print()
 
 # 2.2 统计各科成绩的最低分, 最高分, 平均分, 并输出.
 print(f"语文最低分: {min(chinese_scores)}, 最高分: {max(chinese_scores)}, 平均分: {sum(chinese_scores)/len(chinese_scores)}")
-print(f"数学最低分: {min(match_scores)}, 最高分: {max(match_scores)}, 平均分: {sum(match_scores)/len(match_scores)}")
+print(f"数学最低分: {min(math_scores)}, 最高分: {max(math_scores)}, 平均分: {sum(math_scores)/len(math_scores)}")
 print(f"英语最低分: {min(english_scores)}, 最高分: {max(english_scores)}, 平均分: {sum(english_scores)/len(english_scores)}")
 
 print()
